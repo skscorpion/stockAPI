@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/StockAPIapi/apis/StockAPI",
+      "type": "apis.azure"
+    },
+    "cosmosdb1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.DocumentDB/databaseAccounts/stockdetails",
+      "type": "cosmosdb.azure",
+      "connectionId": "CosmosDb",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
